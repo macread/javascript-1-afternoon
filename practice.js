@@ -88,7 +88,16 @@ var ruff = dog.bark();
 
 //Code Here
 
-//////////////////PROBLEM 7////////////////////
+function looper(arr){
+  var mySum = 0;
+
+  arr.forEach(function(number){
+    if ((number%2>0) || (number>=100)) {
+      mySum += number
+    }
+  });
+  return mySum;
+}
 
 //Given the following function called math
 
