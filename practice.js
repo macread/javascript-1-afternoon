@@ -91,9 +91,9 @@ var ruff = dog.bark();
 function looper(arr){
   var mySum = 0;
 
-  arr.forEach(function(number){
-    if ((number%2>0) || (number>=100)) {
-      mySum += number
+  arr.forEach(function(num){
+    if ((num%2>0) || (num>=100)) {
+      mySum += num
     }
   });
   return mySum;
