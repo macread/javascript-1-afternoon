@@ -40,7 +40,12 @@ var groceries = ["apples", "milk", "eggs", "bread"];
 //If the array does not contain "chocolate", add "chocolate".
 //doubleCheck should return the array.
 
-//Code Here
+function doubleCheck(arr){
+  if (arr.indexOf("chocolate")<0){
+    arr.push('chocolate');
+  }
+  return arr;
+}
 
 //////////////////PROBLEM 5////////////////////
 
@@ -49,7 +54,12 @@ var groceries = ["apples", "milk", "eggs", "bread"];
 //name (a string), color: (a string), age (a number),
 //and goodBoy (a boolean).
 
-//Code Here
+var dog = { 
+  name:"fritz",
+  color:"salt and pepper",
+  age:12,
+  goodBoy:true
+}
 
 //...access the dog's name from the object and assign it to a
 //variable called devMountainClassPet.
